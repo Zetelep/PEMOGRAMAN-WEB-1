@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title> Form </title>
+        <style>
+            .row1{
+                color: #e7212b;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <table border="4" bordercolor="#918f8e" >
+                <tr bgcolor ="#87ceea">
+                    <td  align="center" height ="100" width="600"> <h1 class="row1" > <b> Pendaftaran Kursus </b> </h1> </td>
+                </tr>
+
+                <tr bgcolor ="#808080">
+                    <td> 
+                    <h1><b>Data Diri </b></h1> 
+                    <form>
+                        <table>
+                          <tr>
+                            <td> Nama:</td>
+                            <td ><input type="text" name="naZma" > </td>
+                          </tr>
+                          <tr>
+                            <td >Nim:</td>
+                            <td ><input type="text" name="niLm" > </td>
+                          </tr>
+                          <tr>
+                            <td >Email:</td>
+                            <td ><input type="email" name="emaiFl" ></td>
+                          </tr>
+                          <tr>
+                            <td >Tanggal Lahir:</td>
+                            <td ><input type="date" name="TL" ></td>
+                          </tr>
+                          <tr>
+                            <td >Jenis Kelamin:</td>
+                            <td><input type="radio" name="jenis_kelamin">Laki-laki </td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td><input type="radio" name="jeniZ_kelamin">Perempuan </td>
+                          </tr>
+                          <tr>
+                            <td >Pilih Program Kursus:</td>
+                            <td ><input type="checkbox" name="programL" value="c#"> C# </td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td><input type="checkbox" name="program2" value="Java"> Java </td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td ><input type="checkbox" name="program3" value="SQL"> SQL </td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td><input type="checkbox" name="programF" value="WEB"> HTML dan PHP </td>
+                          </tr>
+                          <tr>
+                            <td>Pilihan Hari/Jam Kursus: </td>
+                            <td>  
+                                <select name="Jadwal">
+                                <option value="pil">Senin-Rabu/09.00-11.00 </option>
+                            </td>
+                          </tr>
+                        </table>
+                        <br><br><br>
+                      </form>              
+                    </td>
+                </tr>
+                <tr bgcolor="#fa8071">
+                    <td> Komentar Anda
+                      <form>
+                        <table>
+                          <tr>
+                            <td> <textarea name="deskripsi" cols="60" rows="5" align="center"></textarea></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <input type="reset" value= "Reset" name="Reset">
+                              <input type="submit" value= "Submit" name="Submit">
+                              <input type="button" value= "Cancel" name="Cancel">
+                            </td>
+                          </tr>
+                        </table>
+                      </form>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
